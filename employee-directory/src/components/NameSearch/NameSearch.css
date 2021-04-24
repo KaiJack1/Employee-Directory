@@ -1,0 +1,8 @@
+/*Styling for the searching engine*/
+.searchbox button{
+    border: 1px solid blue;
+}
+.searchbox button:hover {
+    background-color: blueviolet;
+    color:white;
+}

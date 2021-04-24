@@ -1,0 +1,5 @@
+/*Styling the background and Text*/
+.name-cell{
+    text-transform: capitalize;
+    background-color:goldenrod;
+}

@@ -1,0 +1,18 @@
+/*Styling the cursor with colors.*/
+.table .col {
+    cursor: pointer;
+    background-color:lightblue;
+    color: black;
+}
+/*Pointer styling*/
+.table .col .pointer:after {
+    font-size: 80%;
+    content: "";
+    margin-right: 18px;
+}
+/*Hover styling when user draws over with the mouse*/
+.table .col .pointer:hover:after {
+    font-size: 80%;
+    content: "🔻";
+    margin-right: 0;
+}
